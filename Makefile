@@ -11,4 +11,4 @@ test_cgi: test_cgi.c
 	gcc -W -Wall -o $@ $<
 	
 clean:
-	rm httpd client
+	-rm httpd client test_cgi
