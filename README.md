@@ -35,7 +35,9 @@ SocketOperate类的一个子类，实现了把Client端发来的数据原样返�
 
 - 效果
 
-![]()
+![](https://raw.githubusercontent.com/breakerthb/Tinyhttpd/reuse/pic/socketserver.png)
+
+![](https://raw.githubusercontent.com/breakerthb/Tinyhttpd/reuse/pic/socketclient1.png)
 
 # HttpServer
 
@@ -53,11 +55,11 @@ SocketOperate类的一个子类，实现了把Client端发来的数据原样返�
 
 - Get
 
-![]()
+![](https://raw.githubusercontent.com/breakerthb/Tinyhttpd/reuse/pic/get.png)
 
 - Post
 
-![]()
+![](https://raw.githubusercontent.com/breakerthb/Tinyhttpd/reuse/pic/post.png)
 
 
 # SocketClient
@@ -74,7 +76,9 @@ Socket客户端程序，建立和SocketServer的数据连接，进行简单的�
 
 - 效果
 
-![]()
+![](https://raw.githubusercontent.com/breakerthb/Tinyhttpd/reuse/pic/runprocessserver.png)
+
+![](https://raw.githubusercontent.com/breakerthb/Tinyhttpd/reuse/pic/socketclient2.png)
 
 # Run
 
