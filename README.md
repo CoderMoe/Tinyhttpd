@@ -51,6 +51,8 @@ SocketOperate类的一个子类，实现了把Client端发来的数据原样返�
 
 引用：JsonCPP和SocketLib项目
 
+注意：使用QT Creator编译后，要html文件夹拷贝到执行目录
+
 - 使用
 
 启动服务器
@@ -67,6 +69,13 @@ SocketOperate类的一个子类，实现了把Client端发来的数据原样返�
 
 ![](https://raw.githubusercontent.com/breakerthb/Tinyhttpd/reuse/pic/post.png)
 
+# HttpClient
+
+通过命令行完成Get和Post的HTTP访问
+
+引用：
+
+直接运行即可
 
 # SocketClient
 

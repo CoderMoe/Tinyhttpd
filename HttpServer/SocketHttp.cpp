@@ -105,7 +105,6 @@ string SocketHTTP::GetMethod(string strURL)
        else
        {
             strPageName = strURL.substr(0, find);
-            find++;
 
             string str = strURL.substr(find + 1);
             ParameterGet(str, vKeys, vValues);
@@ -149,6 +148,7 @@ int SocketHTTP::ParameterGet(string& strParms, vector<string>& vKeys,
     vKeys.clear();
     vValues.clear();
 
+    printf("ParmeterGet() - %s\n", strParms.c_str());
     Split(strParms, "&", &vKeys);
 
     int find;
