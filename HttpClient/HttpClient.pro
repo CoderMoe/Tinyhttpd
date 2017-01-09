@@ -8,8 +8,7 @@ TARGET = HttpClient
 DEPENDPATH += .
 INCLUDEPATH += .\
 
-LIBS += -lsocket \
-        -lpthread
+LIBS += -lpthread
 
 # Input
 HEADERS += 
